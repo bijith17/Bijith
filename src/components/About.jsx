@@ -19,7 +19,7 @@ const About = () => {
             <div >
               <p className='sm:text-right text-4xl font-bold'>Hi. I'm Bijith, nice to meet you. Please take a look around.
               </p>
-              <div className='flex  justify-end py-3'>
+              <div className='flex justify-center md:justify-end py-3'>
                 <a href='https://github.com/bijith17'
               target="_blank"><FaLinkedin className='text-4xl mx-3 transition duration-300 hover:text-blue-700 hover:scale-110 '/></a>
                 <a href=""><FaGithub className='text-4xl mx-3 transition duration-300 hover:scale-110'/></a>
