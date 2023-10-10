@@ -17,14 +17,14 @@ export const data=[
         name:"Thrifthub",
         image:RealEst,
         github:"",
-        live:"celluloid.vercel.app",
+        live:"",
     },
     {
         id:3,
         name:"Celluloid",
         image:Celluloid,
         github:"https://github.com/bijith17/Celluloid.git",
-        live:"celluloid.vercel.app",
+        live:"https://celluloid.vercel.app/",
     },
     {
         id:4,
