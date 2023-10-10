@@ -17,7 +17,7 @@ export const data=[
         name:"Thrifthub",
         image:RealEst,
         github:"",
-        live:"",
+        live:"celluloid.vercel.app",
     },
     {
         id:3,
