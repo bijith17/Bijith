@@ -2,6 +2,7 @@ import WorkIm from '../assets/projects/workImg.jpeg'
 import RealEst from '../assets/projects/realestate.jpg'
 import Todo from '../assets/projects/toDo.png'
 import Portfolio from '../assets/projects/Portfolio.png'
+import Celluloid from '../assets/projects/Celliuloid.png'
 
 export const data=[
     {
@@ -21,15 +22,15 @@ export const data=[
     {
         id:3,
         name:"Celluloid",
-        image:RealEst,
-        github:"",
-        live:"",
+        image:Celluloid,
+        github:"https://github.com/bijith17/Celluloid.git",
+        live:"celluloid.vercel.app",
     },
     {
         id:4,
         name:"My Portfolio",
         image:Portfolio,
-        github:"",
+        github:"https://github.com/bijith17/Bijith.git",
     },
     {
         id:5,
