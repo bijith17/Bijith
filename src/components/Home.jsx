@@ -18,7 +18,7 @@ const Home = () => {
         Passionate front-end-developer about design and code. Let's collaborate and bring your digital visions to life!
         </p>
         <div>
-          <a href="https://drive.google.com/file/d/1QLve0AaO-GC6XVOBYAPiUmgkekcR1B46/view?usp=drive_link" 
+          <a href="https://drive.google.com/file/d/1imPK57vSTNEeTjHmq9xaawXoI4ehVj5c/view?usp=drive_link" 
           target='_blank'>
           <button className=' mx-3 text-btn hover:text-white transition duration-300 group border-2 border-gray-500 px-6 py-3 my-2 flex items-center hover:bg-underline hover:border-underline'>
             Download Resume &nbsp;
