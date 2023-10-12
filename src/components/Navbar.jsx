@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   FaBars,
   FaTimes,
@@ -11,13 +11,33 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [hide,setHide]=useState(false);
   const handleClick = () => setNav(!nav);
+
+  const handleScroll = () => {
+    if (window.scrollY > 48) {
+      setHide(true);
+    } else {
+      setHide(false);
+    }
+  };
+  useEffect(()=>{
+    window.addEventListener('scroll',handleScroll);
+    return()=>{
+      window.removeEventListener('scroll',handleScroll);
+    }
+  },[])
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-black'>
-      <div className='logo text-5xl shadow-lg px-2'>
-        BIJITH
-      </div>
+    {
+      hide? <div className='logo text-5xl shadow-lg px-2'>
+      
+    </div> :  <div className='logo text-5xl shadow-lg px-2'>
+      BIJITH
+    </div>
+    }
+     
 
       {/* menu */}
       <ul className='hidden md:flex '>
